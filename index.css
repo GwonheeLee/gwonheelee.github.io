@@ -488,7 +488,11 @@ body:not(.user-is-tabbing) a:focus {
 }
 
 .work__image-box {
-  margin-bottom: var(--gutter-normal);
+  transition: all 0.6s;
+}
+
+.work__image-box:hover {
+  transform: scale(1.1);
 }
 
 @media (min-width: 901px) {
